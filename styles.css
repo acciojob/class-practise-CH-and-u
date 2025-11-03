@@ -1,1 +1,61 @@
 /*  your css code here. If applicable */
+/* ----------- Reset & Base ----------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ----------- Header ----------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2563eb;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.logo {
+  background-color: white;
+  color: #2563eb;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Hero Section ----------- */
+.hero {
+  background-color: white;
+  margin: 40px 0;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+}
+
+.hero h1 {
+  color: #1e40af;
+  margin-bottom:
